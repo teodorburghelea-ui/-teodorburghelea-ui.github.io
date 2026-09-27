@@ -138,11 +138,25 @@
       </div>
     </section>
 
-    <section class="topic prose" id="chaotic-mixing">
-      <h2>Chaotic mixing of shear-thinning fluids</h2>
+    <section class="topic" id="chaotic-mixing">
+      <div class="prose">
+      <h2>Chaotic mixing of shear-thinning and viscoelastic fluids</h2>
+      <h3>Shear-thinning fluids in the arc-wall mixer</h3>
       <p class="meta"><b>People:</b> Teo Burghelea (playing as both student and advisor…)</p>
       <p>This project aims to clarify the role of shear thinning in mixing by laminar chaotic advection. We perform numerical simulations with the <a href="http://gfs.sourceforge.net/">Gerris flow solver</a> developed by Stéphane Popinet, in the rotating arc-wall mixer developed within the Naymis project (<a href="#yield-stress">see above</a>). Throughout the simulations we keep Re = 1, St = 1 and Pe = 10<sup>7</sup>, and vary the power-law index from n = 1 (Newtonian) down to n = 0.2.</p>
       <p>As a reference we chose a forcing protocol that mixes poorly in the Newtonian case. Keeping the same dimensionless numbers but lowering the power-law index to n = 0.2 changes the mixing dynamics dramatically. <strong>At fixed Re, St and Pe, shear thinning greatly enhances mixing.</strong></p>
+      </div>
+
+      <div class="feature">
+        <figure>
+          <video src="assets/media/cellular-mixing-evp.mp4" poster="assets/img/cellular-mixing-evp-poster.jpg" controls autoplay muted loop playsinline preload="metadata"></video>
+        </figure>
+        <div>
+          <h3>Viscoelastic fluid in a cellular flow</h3>
+          <p>Numerical simulation of mixing in a periodically forced cellular flow of a viscoelastic fluid at Weissenberg number Wi&nbsp;=&nbsp;20. A band of dye (red) is initially separated from the surrounding fluid (blue). The flow stretches and folds it until the two are mixed; white marks the fully mixed state (c&nbsp;=&nbsp;0.5).</p>
+          <p class="meta">The title shows time in units of the forcing period T. The full run is shown, looping.</p>
+        </div>
+      </div>
     </section>
 
     <section class="topic prose" id="rayleigh-taylor">
