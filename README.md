@@ -1,6 +1,6 @@
 # Teodor Burghelea — professional website
 
-Live site: https://teodorburghelea-ui.github.io/-teodorburghelea-ui.github.io/
+Live site: https://teodorburghelea-ui.github.io
 
 Plain HTML/CSS; no build step. Every page is a normal `.html` file you can edit directly on GitHub
 (open the file → pencil icon → edit → "Commit changes"). The site updates about a minute later.
